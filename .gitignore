@@ -1,0 +1,33 @@
+# Despliegue
+/dist
+/build
+/public
+
+# Entornos
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Bases de datos
+db/*.sqlite
+db/*.db
+
+# Archivos temporales
+tmp
+*.swp
+*.tmp
+
+# Logs
+logs
+*.log
+
+# Cachés
+node_modules
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.idea
+.vscode
